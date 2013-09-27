@@ -118,20 +118,20 @@ $\sqrt{x + y}, \quad \sqrt[4]{x + y}$
 
 ## 求和与积分
 
-行内模式 $\sum_{i=1}^n {x}^i, {\int_a}^b f(x)dx$
+行内模式 $\sum_{i=1}^n x\^i, \int_a\^b f(x)dx$
 
-单独一行的情况下， $$\sum_{i=1}^n {x}^i, {\int_a}^b f(x)dx$$
+单独一行的情况下， $$\sum_{i=1}^n x\^i, \int_a\^b f(x)dx$$
 
 当然在行内模式下，可以手动地指定下标的位置，如$\sum\limits_{i=1}^n {x}^i$
 
-带圆圈的积分符号: $${\oint_a}^b f(x)dx = {x}^2 + 1$$
+带圆圈的积分符号: $${\oint_a}^b f(x)dx = x\^2 + 1$$ 
 
 ## 上下符号
 
 上下划线
 \overline, \underline, 其中\overline比\bar要长一些
 
-$$\overline{\overline{a}^2 + \underline{ab} + \bar{b}^2}$$
+$$\overline{\overline a\^2 + \underline{ab} + \bar b\^2}$$
 
 上下箭头 \overrightarrow, \underrightarrow
 $$\overrightarrow{AB}, \underrightarrow{ABC}, \overleftarrow{XY}$$
@@ -154,7 +154,7 @@ $$ \sum\_{1 < x < n \atop x \neq y} a_{ij}, {n + m \choose k}$$
 $\big(, \Big(, \bigg(, \Bigg($
 
 自适应地放大
-$$\left( \sum_{x=1}^m {x}^2 \right)$$
+$$\left( \sum_{x=1}^m x\^2 \right)$$
 
 \left和\right必须要成对地出现，为了只用一个，则必须要将另外一个设置.
 $$\left. \frac {\partial f} {\partial x} \right |_{x = 0}$$
