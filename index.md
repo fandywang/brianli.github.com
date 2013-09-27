@@ -1,5 +1,5 @@
 ---
-title: I Believe I Can Fly!
+title: 知行合一 && 思行合一
 layout: page
 ---
 

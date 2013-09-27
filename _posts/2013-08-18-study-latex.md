@@ -32,6 +32,15 @@ MathJax.Hub.Config({
 });
 </script>
 
+开始在`_config.yml`中对markdown的设置为rdiscount，使得对MathJax的支持不是很好。经过搜索，若在`_config.yml`中将markdown渲染改为kramdown，对所有的MathJax中公式，在Mou上看到的和最终渲染出来的就一致了，因此记录下该改动，或许对有一些朋友有用.
+
+具体修改的代码:
+
+    {% highlight bash %}
+    #markdown: rdiscount
+    markdown: kramdown
+    {% endhighlight %}
+
 # 使用MathJax学习Latex中的数学表达方式
 
 ## 希腊字母
