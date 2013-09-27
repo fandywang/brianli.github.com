@@ -1,4 +1,5 @@
-markdown: rdiscount
+#markdown: rdiscount
+markdown: kramdown
 permalink: /:year/:month/:title/
 url: http://blog.wzgtech.com
 author: Brian LI
