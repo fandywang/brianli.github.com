@@ -1,6 +1,8 @@
 #markdown: rdiscount
 markdown: kramdown
 permalink: /:year/:month/:title/
+title: 知行合一 && 思行合一
 url: http://blog.wzgtech.com
 author: Brian LI
 pygments: true
+paginate: 20

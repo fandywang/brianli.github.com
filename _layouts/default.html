@@ -25,9 +25,15 @@
         <span><a title="links" class="" href="/links/">链接</a></span>
         <span><a title="subscribe by RSS" class="" href="/feed/">RSS</a></span>
         </nav>
+
         <article class="content">
         {{ content }}
         </article>
+
+        <footer>
+        <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> | Copyright 2008 - {{site.time | date:"%Y"}} by <a href="http://blog.wzgtech.com/about/">Brian LI</a> | <span class="label label-info">{{site.time | date:"%Y-%m-%d %H:%M:%S %Z"}}</span></small></p>
+        </footer>
+
       </div>
     </div>
     <script type="text/javascript">
