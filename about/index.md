@@ -31,7 +31,6 @@ comments: yes
 
 # 联系方式
 
-Email & Gtalk: <libiao@gmail.com>
+Email & Gtalk: ![mail to me](http://wzgtech.u.qiniudn.com/images/gmail.png)
 
-未完待续。
 
