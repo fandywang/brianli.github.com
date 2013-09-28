@@ -34,7 +34,29 @@ layout: default
 </span>
 {% endif %}
 </section>
+
+<section class="paginator">
+<div id="previous_next_page">
+<span id="previous_page">前一篇:
+{% if page.previous %}
+<a href="{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
+{% else %}
+没有了
+{% endif %}
+</span>
+
+<span id="next_page">后一篇:
+{% if page.next %}
+<a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a>
+{% else %}
+没有了
+{% endif %}
+</span>
+</div>
+</section>
+
 {% include comments.md %}
+
 <script type="text/javascript">
 $(function(){
   $(document).keydown(function(e) {
