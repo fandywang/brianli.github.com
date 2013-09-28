@@ -12,11 +12,7 @@
   </head>
   <body>
     <div id="container">
-      <div id="main" role="main">
-        <header>
-        <h1>{{ page.title }}</h1>
-        </header>
-        <nav>
+      <div id = "nav">
         <span><a title="home page" class="" href="/">首页</a></span>
         <span><a title="about" class="" href="/about/">关于</a></span>
         <span><a title="guestbook" class="" href="/guestbook/">留言</a></span>
@@ -24,7 +20,12 @@
         <span><a title="tags" class="" href="/tags/">标签</a></span>
         <span><a title="links" class="" href="/links/">链接</a></span>
         <span><a title="subscribe by RSS" class="" href="/feed/">RSS</a></span>
-        </nav>
+      </div>
+
+      <div id="main" role="main">
+        <header>
+        <h1>{{ page.title }}</h1>
+        </header>
 
         <article class="content">
         {{ content }}

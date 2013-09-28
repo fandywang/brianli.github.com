@@ -25,7 +25,7 @@ pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto
 blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
-#container{width:850px;margin:2em auto;display:block;padding:0 2em;}
+#container{width:900px;margin:2em auto;display:block;padding:0 2em;}
 .content{font-size:16px;line-height:24px;}
 .content h1{padding:.5em 0;}
 .content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
@@ -37,9 +37,9 @@ blockquote p{margin:0;padding:.5em 0;}
 .listing-seperator{font-weight:bold;}
 .meta{text-align:right;font-size:12px;}
 header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
-nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;width:9em;text-align:right;}
-nav a{display:block;padding:.7em 1em;color:#000000;}
-nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
+#nav {font-family:"Electrolize",sans-serif;font-size:1.3em;text-transform:uppercase;margin-left:-1em; padding-bottom: 20px}
+#nav a{padding:.7em 1em;color:#000000;}
+#nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:.5em 0em;}
 h1{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
 h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
