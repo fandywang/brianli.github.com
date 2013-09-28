@@ -31,4 +31,4 @@ comments: yes
 
 # 联系方式
 
-Email & Gtalk: ![mail to me](http://wzgtech.u.qiniudn.com/images/gmail.png)
+Email & Gtalk: ![mail to me]({{ site.images_url }}/gmail.png)
